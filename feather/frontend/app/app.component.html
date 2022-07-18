@@ -1,0 +1,21 @@
+<hello></hello>
+<p>
+	Start editing to see some magic happen :)
+</p>
+
+<p>Http Request</p>
+
+<table width="100%">
+	<tr>
+		<th>Id</th>
+		<th>Name</th>
+		<th>User Id</th>
+		<th>Status</th>
+	</tr>
+	<tr *ngFor="let datas of httpData">
+		<td>{{datas.id}}</td>
+		<td>{{datas.title}}</td>
+		<td>{{datas.userId}}</td>
+		<td>{{datas.completed}}</td>
+	</tr>
+</table>

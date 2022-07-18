@@ -1,0 +1,39 @@
+{
+  "name": "feather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "be-start": "npm run api-feather-js",
+    "fe-start": "ng serve",
+    "hello-feather-js": "node backend/hello-feather-js.js",
+    "hello-feather-ts": "ts-node backend/hello-feather-ts.ts",
+    "api-feather-js": "node backend/api-feather-js.js",
+    "api-feather-ts": "ts-node backend/api-feather-ts.ts",
+    "api-express-js": "ts-node backend/api-express-js.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular-devkit/build-angular": "^14.0.6",
+    "@angular/animations": "^14.0.0",
+    "@angular/cli": "^14.0.6",
+    "@angular/common": "^14.0.0",
+    "@angular/compiler": "^14.0.0",
+    "@angular/compiler-cli": "^14.0.0",
+    "@angular/core": "^14.0.0",
+    "@angular/forms": "^14.0.0",
+    "@angular/platform-browser": "^14.0.0",
+    "@angular/platform-browser-dynamic": "^14.0.0",
+    "@angular/router": "^14.0.0",
+    "@feathersjs/express": "^4.5.15",
+    "@feathersjs/feathers": "^4.5.15",
+    "@feathersjs/socketio": "^4.5.15",
+    "cors": "^2.8.5",
+    "rxjs": "~7.5.0",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4"
+  }
+}
